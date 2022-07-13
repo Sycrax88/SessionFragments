@@ -6,7 +6,9 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.navigation.fragment.FragmentNavigator
 import com.colosoft.sessionfragments.R
+import com.colosoft.sessionfragments.databinding.FragmentBatmanBinding
 
 class BatmanFragment : Fragment() {
 
@@ -15,18 +17,19 @@ class BatmanFragment : Fragment() {
     }
 
     private lateinit var viewModel: BatmanViewModel
+    private lateinit var batmanBinding: FragmentBatmanBinding
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        return inflater.inflate(R.layout.fragment_batman, container, false)
-    }
+        batmanBinding = FragmentBatmanBinding.inflate(inflater, container, false)
+        val view = batmanBinding.root
+        
+        batmanBinding.photoImageView.setOnClickListener{
 
-    override fun onActivityCreated(savedInstanceState: Bundle?) {
-        super.onActivityCreated(savedInstanceState)
-        viewModel = ViewModelProvider(this).get(BatmanViewModel::class.java)
-        // TODO: Use the ViewModel
+        }
     }
+    return true
 
 }

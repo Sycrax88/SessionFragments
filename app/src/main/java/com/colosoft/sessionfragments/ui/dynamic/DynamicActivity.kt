@@ -12,10 +12,13 @@ import com.colosoft.sessionfragments.ui.wonderwoman.WonderWomanFragment
 
 class DynamicActivity : AppCompatActivity() {
 
+    val pila = "head"
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_dynamic)
+
+
 
         val fragmentManager = supportFragmentManager
         val fragmentTransaction = fragmentManager.beginTransaction()
@@ -36,20 +39,20 @@ class DynamicActivity : AppCompatActivity() {
         when(item.itemId){
             R.id.menu_batman ->{
                 val batmanFragment = BatmanFragment()
-                fragmentTransaction.replace(R.id.container, batmanFragment).commit()
+                fragmentTransaction.replace(R.id.container, batmanFragment).addToBackStack(pila).commit()
             }
             R.id.menu_superman ->{
                 val supermanFragment = SupermanFragment()
-                fragmentTransaction.replace(R.id.container, supermanFragment).commit()
+                fragmentTransaction.replace(R.id.container, supermanFragment).addToBackStack(pila).commit()
             }
             R.id.menu_flash ->
             {
                 val flashFragment = FlashFragment()
-                fragmentTransaction.replace(R.id.container, flashFragment).commit()
+                fragmentTransaction.replace(R.id.container, flashFragment).addToBackStack(pila).commit()
             }
             else ->{
                 val wonderWomanFragment = WonderWomanFragment()
-                fragmentTransaction.replace(R.id.container, wonderWomanFragment).commit()
+                fragmentTransaction.replace(R.id.container, wonderWomanFragment).addToBackStack(pila).commit()
             }
 
         }
