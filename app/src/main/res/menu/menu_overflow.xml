@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menu_batman"
+        android:title="@string/batman_name" />
+    <item
+        android:id="@+id/menu_superman"
+        android:title="@string/superman_name" />
+    <item
+        android:id="@+id/menu_flash"
+        android:title="@string/flash_name" />
+    <item
+        android:id="@+id/menu_wonderwoman"
+        android:title="@string/wonderwoman_name" />
+</menu>

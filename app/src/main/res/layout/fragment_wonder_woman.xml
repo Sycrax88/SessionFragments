@@ -25,8 +25,8 @@
         android:layout_height="wrap_content"
         android:contentDescription="@string/batman_name"
         android:paddingTop="16dp"
-        android:src="@drawable/batman"
-        app:srcCompat="@drawable/wonderWoman" />
+        android:src="@drawable/wonderwoman"
+        app:srcCompat="@drawable/wonderwoman" />
 
     <TextView
         android:id="@+id/batman_powers"
