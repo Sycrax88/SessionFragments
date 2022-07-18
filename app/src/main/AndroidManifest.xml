@@ -14,8 +14,9 @@
         android:theme="@style/Theme.SessionFragments"
         tools:targetApi="31">
         <activity
-            android:name=".ui.dynamicnavigation.DynamicNavigationActivity"
-            android:exported="true">
+            android:name=".ui.bottom.BottomActivity"
+            android:exported="true"
+            android:label="@string/title_activity_bottom">
         <intent-filter>
             <action android:name="android.intent.action.MAIN" />
 
@@ -23,9 +24,13 @@
         </intent-filter>
         </activity>
         <activity
-            android:name=".ui.dynamic.DynamicActivity"
-            android:exported="false"/>
+            android:name=".ui.dynamicnavigation.DynamicNavigationActivity"
+            android:exported="true">
 
+        </activity>
+        <activity
+            android:name=".ui.dynamic.DynamicActivity"
+            android:exported="false" />
         <activity
             android:name=".ui.main.MainActivity"
             android:exported="false" />

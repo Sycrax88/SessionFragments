@@ -9,7 +9,11 @@
         android:id="@+id/batmanFragment"
         android:name="com.colosoft.sessionfragments.ui.batman.BatmanFragment"
         android:label="fragment_batman"
-        tools:layout="@layout/fragment_batman" />
+        tools:layout="@layout/fragment_batman" >
+        <action
+            android:id="@+id/action_batmanFragment_to_flashFragment"
+            app:destination="@id/flashFragment" />
+    </fragment>
     <fragment
         android:id="@+id/supermanFragment"
         android:name="com.colosoft.sessionfragments.ui.superman.SupermanFragment"

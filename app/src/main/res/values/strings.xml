@@ -9,4 +9,8 @@
     <string name="batman_powers">Artista marcial excepcional, estrategia de combate, riqueza inagotable, habilidad deductiva brillante, tecnología avanzada</string>
     <string name="wonderwoman_powers">Súper fuerza, invulnerabilidad, vuelo, habilidad de combate, estrategia de combate, agilidad sobrehumana, factor de curación, armamento mágico</string>
     <string name="flash_powers">Súper velocidad, intangibilidad, agilidad sobrehumana</string>
+    <string name="title_activity_bottom">BottomActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
 </resources>

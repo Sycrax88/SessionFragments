@@ -7,14 +7,11 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.navigation.fragment.FragmentNavigator
+import androidx.navigation.fragment.findNavController
 import com.colosoft.sessionfragments.R
 import com.colosoft.sessionfragments.databinding.FragmentBatmanBinding
 
 class BatmanFragment : Fragment() {
-
-    companion object {
-        fun newInstance() = BatmanFragment()
-    }
 
     private lateinit var viewModel: BatmanViewModel
     private lateinit var batmanBinding: FragmentBatmanBinding
@@ -25,11 +22,12 @@ class BatmanFragment : Fragment() {
     ): View? {
         batmanBinding = FragmentBatmanBinding.inflate(inflater, container, false)
         val view = batmanBinding.root
-        
-        batmanBinding.photoImageView.setOnClickListener{
 
+        batmanBinding.batmanImage.setOnClickListener{
+            //findNavController().navigate(BatmanFragment)
         }
+        return view
     }
-    return true
+
 
 }
