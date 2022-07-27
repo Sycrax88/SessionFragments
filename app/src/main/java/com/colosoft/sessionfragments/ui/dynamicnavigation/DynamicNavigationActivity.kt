@@ -31,10 +31,10 @@ class DynamicNavigationActivity : AppCompatActivity() {
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         when(item.itemId){
-            R.id.menu_batman -> Navigation.findNavController(this, R.id.fragmentContainerView).navigate(R.id.batmanFragment)
-            R.id.menu_superman -> Navigation.findNavController(this, R.id.fragmentContainerView).navigate(R.id.supermanFragment)
-            R.id.menu_flash -> Navigation.findNavController(this, R.id.fragmentContainerView).navigate(R.id.flashFragment)
-            else -> Navigation.findNavController(this, R.id.fragmentContainerView).navigate(R.id.wonderWomanFragment)
+            R.id.menu_batman -> Navigation.findNavController(this, R.id.fragmentContainerView).navigate(R.id.menu_batman)
+            R.id.menu_flash -> Navigation.findNavController(this, R.id.fragmentContainerView).navigate(R.id.menu_flash)
+            R.id.menu_superman -> Navigation.findNavController(this, R.id.fragmentContainerView).navigate(R.id.menu_superman)
+            else -> Navigation.findNavController(this, R.id.fragmentContainerView).navigate(R.id.menu_wonderwoman)
 
         }
         return true

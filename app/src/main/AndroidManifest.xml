@@ -14,20 +14,29 @@
         android:theme="@style/Theme.SessionFragments"
         tools:targetApi="31">
         <activity
-            android:name=".ui.bottom.BottomActivity"
-            android:exported="true"
-            android:label="@string/title_activity_bottom">
-        <intent-filter>
-            <action android:name="android.intent.action.MAIN" />
-
-            <category android:name="android.intent.category.LAUNCHER" />
-        </intent-filter>
+            android:name=".ui.tabbed.TabbedActivity"
+            android:exported="false"
+            android:label="@string/title_activity_tabbed"
+            android:theme="@style/Theme.SessionFragments.NoActionBar">
         </activity>
         <activity
-            android:name=".ui.dynamicnavigation.DynamicNavigationActivity"
-            android:exported="true">
+            android:name=".ui.drawer.DrawerActivity"
+            android:exported="true"
+            android:label="@string/title_activity_drawer"
+            android:theme="@style/Theme.SessionFragments.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
+        <activity
+            android:name=".ui.bottom.BottomActivity"
+            android:exported="false"
+            android:label="@string/title_activity_bottom" />
+        <activity
+            android:name=".ui.dynamicnavigation.DynamicNavigationActivity"
+            android:exported="false" />
         <activity
             android:name=".ui.dynamic.DynamicActivity"
             android:exported="false" />

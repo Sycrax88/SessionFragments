@@ -24,7 +24,7 @@ class BatmanFragment : Fragment() {
         val view = batmanBinding.root
 
         batmanBinding.batmanImage.setOnClickListener{
-            //findNavController().navigate(BatmanFragment)
+            findNavController().navigate(BatmanFragmentDirections.actionBatmanFragmentToFlashFragment())
         }
         return view
     }

@@ -3,14 +3,18 @@
 
     <item
         android:id="@+id/menu_batman"
+        android:icon="@drawable/batman_icon"
         android:title="@string/batman_name" />
     <item
-        android:id="@+id/menu_superman"
-        android:title="@string/superman_name" />
-    <item
         android:id="@+id/menu_flash"
+        android:icon="@drawable/flash_icon"
         android:title="@string/flash_name" />
     <item
+        android:id="@+id/menu_superman"
+        android:icon="@drawable/superman_icon"
+        android:title="@string/superman_name" />
+    <item
         android:id="@+id/menu_wonderwoman"
+        android:icon="@drawable/wonderwoman_icon"
         android:title="@string/wonderwoman_name" />
 </menu>

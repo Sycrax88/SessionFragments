@@ -3,30 +3,30 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_graph"
-    app:startDestination="@id/batmanFragment">
+    app:startDestination="@id/menu_batman">
 
     <fragment
-        android:id="@+id/batmanFragment"
+        android:id="@+id/menu_batman"
         android:name="com.colosoft.sessionfragments.ui.batman.BatmanFragment"
-        android:label="fragment_batman"
+        android:label="@string/batman_name"
         tools:layout="@layout/fragment_batman" >
         <action
             android:id="@+id/action_batmanFragment_to_flashFragment"
-            app:destination="@id/flashFragment" />
+            app:destination="@id/menu_flash" />
     </fragment>
     <fragment
-        android:id="@+id/supermanFragment"
-        android:name="com.colosoft.sessionfragments.ui.superman.SupermanFragment"
-        android:label="fragment_superman"
-        tools:layout="@layout/fragment_superman" />
-    <fragment
-        android:id="@+id/flashFragment"
+        android:id="@+id/menu_flash"
         android:name="com.colosoft.sessionfragments.ui.flash.FlashFragment"
-        android:label="fragment_flash"
+        android:label="@string/flash_name"
         tools:layout="@layout/fragment_flash" />
     <fragment
-        android:id="@+id/wonderWomanFragment"
+        android:id="@+id/menu_superman"
+        android:name="com.colosoft.sessionfragments.ui.superman.SupermanFragment"
+        android:label="@string/superman_name"
+        tools:layout="@layout/fragment_superman" />
+    <fragment
+        android:id="@+id/menu_wonderwoman"
         android:name="com.colosoft.sessionfragments.ui.wonderwoman.WonderWomanFragment"
-        android:label="fragment_wonder_woman"
+        android:label="@string/wonderwoman_name"
         tools:layout="@layout/fragment_wonder_woman" />
 </navigation>

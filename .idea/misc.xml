@@ -3,15 +3,22 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/recti/AndroidStudioProjects/SessionFragments/app/src/main/res/layout/activity_bottom.xml" value="0.25" />
+        <entry key="..\:/Users/recti/AndroidStudioProjects/SessionFragments/app/src/main/res/drawable/color_icon_selector.xml" value="0.167" />
+        <entry key="..\:/Users/recti/AndroidStudioProjects/SessionFragments/app/src/main/res/layout/activity_bottom.xml" value="0.1" />
+        <entry key="..\:/Users/recti/AndroidStudioProjects/SessionFragments/app/src/main/res/layout/activity_drawer.xml" value="0.1" />
         <entry key="..\:/Users/recti/AndroidStudioProjects/SessionFragments/app/src/main/res/layout/activity_dynamic.xml" value="0.18541666666666667" />
         <entry key="..\:/Users/recti/AndroidStudioProjects/SessionFragments/app/src/main/res/layout/activity_dynamic_navigation.xml" value="0.18" />
         <entry key="..\:/Users/recti/AndroidStudioProjects/SessionFragments/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/recti/AndroidStudioProjects/SessionFragments/app/src/main/res/layout/content_drawer.xml" value="0.1" />
         <entry key="..\:/Users/recti/AndroidStudioProjects/SessionFragments/app/src/main/res/layout/fragment_batman.xml" value="0.2" />
         <entry key="..\:/Users/recti/AndroidStudioProjects/SessionFragments/app/src/main/res/layout/fragment_flash.xml" value="0.22" />
+        <entry key="..\:/Users/recti/AndroidStudioProjects/SessionFragments/app/src/main/res/layout/fragment_home.xml" value="0.1" />
         <entry key="..\:/Users/recti/AndroidStudioProjects/SessionFragments/app/src/main/res/layout/fragment_superman.xml" value="0.22" />
+        <entry key="..\:/Users/recti/AndroidStudioProjects/SessionFragments/app/src/main/res/layout/fragment_tabbed.xml" value="0.1" />
         <entry key="..\:/Users/recti/AndroidStudioProjects/SessionFragments/app/src/main/res/layout/fragment_wonder_woman.xml" value="0.25" />
-        <entry key="..\:/Users/recti/AndroidStudioProjects/SessionFragments/app/src/main/res/menu/menu_overflow.xml" value="0.18" />
+        <entry key="..\:/Users/recti/AndroidStudioProjects/SessionFragments/app/src/main/res/menu/bottom_nav_menu.xml" value="0.1" />
+        <entry key="..\:/Users/recti/AndroidStudioProjects/SessionFragments/app/src/main/res/menu/drawer.xml" value="0.1" />
+        <entry key="..\:/Users/recti/AndroidStudioProjects/SessionFragments/app/src/main/res/menu/menu_overflow.xml" value="0.1" />
       </map>
     </option>
   </component>
